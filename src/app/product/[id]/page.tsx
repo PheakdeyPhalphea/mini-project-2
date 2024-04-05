@@ -6,7 +6,6 @@ export type Params = {
     id: string | number;
   };
 };
-
 export default async function page({ params }: Params) {
   const id = params.id;
   const resItem = await getProById(id);

@@ -1,10 +1,11 @@
-import React from 'react'
+import SidebarComponent from "@/components/DashBoardComponent.tsx/SildeBarDashBordComponent";
+import ProductTable from "@/components/table/ProductTable";
+import React from "react";
 
 export default function page() {
   return (
-    <div>
-        this is about dashboard
-    </div>
-  )
+    <main className="w-full ">
+      <ProductTable />
+    </main>
+  );
 }
-

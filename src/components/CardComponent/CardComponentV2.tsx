@@ -9,7 +9,7 @@ export default function CardComponentV2({
 }: productType) {
   return (
     <section>
-      <div className="bg-secondaryColor rounded-lg overflow-hidden  max-w-sm">
+      <div className="bg-secondaryColor  rounded-lg overflow-hidden  max-w-sm">
         <div className="relative ">
           <img
             className="w-full h-1/2 object-cover"
