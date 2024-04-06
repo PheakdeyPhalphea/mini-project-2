@@ -10,7 +10,7 @@ import {
   HiUser,
 } from "react-icons/hi";
 
-export default function SidebarComponent() {
+export default function xSidebarComponent() {
   return (
     <Sidebar
       aria-label="Sidebar with multi-level dropdown example"
@@ -33,8 +33,8 @@ export default function SidebarComponent() {
           <Sidebar.Item href="#" icon={HiUser}>
             Users
           </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiShoppingBag}>
-            Products
+          <Sidebar.Item href="/dashboard/create-pro" icon={HiShoppingBag}>
+            Create-Product
           </Sidebar.Item>
           <Sidebar.Item href="#" icon={HiArrowSmRight}>
             Sign In

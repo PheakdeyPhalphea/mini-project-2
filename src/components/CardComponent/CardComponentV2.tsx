@@ -12,9 +12,9 @@ export default function CardComponentV2({
       <div className="bg-secondaryColor  rounded-lg overflow-hidden  max-w-sm">
         <div className="relative ">
           <img
-            className="w-full h-1/2 object-cover"
+            className="object-cover h-64 w-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 transform duration-300"
             src={image}
-            alt="Product Image"
+            alt={name}
           />
           <div className="absolute top-0 right-0 bg-red-600 text-white px-2 py-1 m-2 rounded-md text-sm font-medium">
             SALE

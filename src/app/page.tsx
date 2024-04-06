@@ -2,9 +2,15 @@ import fetchData from "@/Data/fetchData";
 import CardComponentV2 from "@/components/CardComponent/CardComponentV2";
 import CategoryComponent from "@/components/CategoryComponent";
 import { productType } from "@/types/productTypes";
+import { Metadata } from "next";
 import Link from "next/link";
+export const metadata: Metadata = {
+  title: "Products",
+  description: "This is Product Page Shop",
+  keywords: ["shop", "ecommerce", "sell"],
+};
 export default async function Home() {
-  const proItems2 = await fetchData(2);
+  const proItems2 = await fetchData();
   return (
     <main>
       <div className="w-[90%] mx-auto font-medium text-primaryColor mt-[80px] text-4xl">

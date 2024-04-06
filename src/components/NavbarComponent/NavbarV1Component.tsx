@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import {
   Avatar,
   Dropdown,
@@ -17,12 +17,12 @@ export default function NavbarV1Component() {
     <Navbar className="bg-sec">
       <NavbarBrand href="https://flowbite-react.com">
         <img
-          src="/logov2.jpg"
+          src="/logov2-removebg.png"
           className="mr-3 h-6 sm:h-9"
           alt="Flowbite React Logo"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite React
+          X-Diamant
         </span>
       </NavbarBrand>
       <div className="flex md:order-2 sm:hidden md:block lg:block">
@@ -60,6 +60,9 @@ export default function NavbarV1Component() {
         </NavbarLink>
         <NavbarLink href="/dashboard" className="text-lg text-primaryColor">
           Dashboard
+        </NavbarLink>
+        <NavbarLink href="/about" className="text-lg text-primaryColor">
+          About-Us
         </NavbarLink>
       </NavbarCollapse>
     </Navbar>
