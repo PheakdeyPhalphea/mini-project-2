@@ -9,7 +9,7 @@ export default function page() {
             <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
               Hey 👋 I am
               <br className="block sm:hidden" />
-              Pheakdey
+                Pheakdey
             </h2>
             <p className="max-w-lg mt-3 text-xl leading-relaxed text-AscendColor dark:text-gray-300 md:mt-8">
               I Am CSTAD Student Current This is My Mini-Project About

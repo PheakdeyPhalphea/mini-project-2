@@ -33,7 +33,7 @@ export default function xSidebarComponent() {
           <Sidebar.Item href="#" icon={HiUser}>
             Users
           </Sidebar.Item>
-          <Sidebar.Item href="/dashboard/create-pro" icon={HiShoppingBag}>
+          <Sidebar.Item href="/dashboard/create-product" icon={HiShoppingBag}>
             Create-Product
           </Sidebar.Item>
           <Sidebar.Item href="#" icon={HiArrowSmRight}>

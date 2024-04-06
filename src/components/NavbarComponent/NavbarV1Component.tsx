@@ -15,7 +15,7 @@ import {
 export default function NavbarV1Component() {
   return (
     <Navbar className="bg-sec">
-      <NavbarBrand href="https://flowbite-react.com">
+      <NavbarBrand href="/">
         <img
           src="/logov2-removebg.png"
           className="mr-3 h-6 sm:h-9"
