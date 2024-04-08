@@ -5,12 +5,13 @@ import { productType } from "@/types/productTypes";
 import { Metadata } from "next";
 import Link from "next/link";
 export const metadata: Metadata = {
-  title: "Products",
+  title: "E-Commerce",
   description: "This is Product Page Shop",
   keywords: ["shop", "ecommerce", "sell"],
 };
 export default async function Home() {
   const proItems2 = await fetchData();
+
   return (
     <main>
       <div className="w-[90%] mx-auto font-medium text-primaryColor mt-[80px] text-4xl">

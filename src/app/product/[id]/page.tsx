@@ -6,7 +6,7 @@ export type Params = {
     id: string | number;
   };
 };
-export async function generateMetadata({ params }: any) {
+export async function generateMetadata({ params }: Params) {
   const id = params.id;
   const product = await getProById(id);
   return {

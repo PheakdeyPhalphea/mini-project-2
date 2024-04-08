@@ -62,7 +62,7 @@ export default function NavbarV1Component() {
           Dashboard
         </NavbarLink>
         <NavbarLink href="/about" className="text-lg text-primaryColor">
-          About-Us
+          About
         </NavbarLink>
       </NavbarCollapse>
     </Navbar>

@@ -86,8 +86,8 @@ const CreateProductForm = () => {
         validationSchema={validationSchema}
         initialValues={{
           category: {
-            name: "Shoes",
-            icon: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1693342954-rincon-3-64ee5ca62e001.jpg?crop=1xw:1xh;center,top&resize=980:*",
+            name: " ",
+            icon: " ",
           },
           name: "",
           desc: "",
@@ -106,6 +106,28 @@ const CreateProductForm = () => {
                 className={fieldStyle}
                 name="name"
                 type="text"
+              />
+            </div>
+            {/* category */}
+            <div className="flex flex-col gap-2 text-primaryColor">
+              <label htmlFor="category.name">Category Name</label>
+              <Field
+                id="category.name"
+                placeholder="T-shirt"
+                className={fieldStyle}
+                name="category.name"
+                type="text"
+              />
+            </div>
+            {/* icon */}
+            
+            <div className="flex flex-col gap-2 text-primaryColor">
+              <label htmlFor="category.name">Category Icon</label>
+              <Field
+                type="text"
+                id="category.icon"
+                name="category.icon"
+                className={fieldStyle}
               />
             </div>
             {/* description */}
@@ -172,7 +194,7 @@ const CreateProductForm = () => {
 export default CreateProductForm;
 
 // custom Input
-function CustomInput({ field, form, setFieldValue, ...props }: any) {
+export function CustomInput({ field, form, setFieldValue, ...props }: any) {
   const [previewImage, setPreviewImage] = useState<string | undefined>(
     undefined
   );
